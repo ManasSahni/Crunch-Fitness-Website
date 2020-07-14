@@ -147,14 +147,18 @@ body{
 }
 
 #main-heading-box{
-  max-width:100%;
   position: absolute;
   margin: 120px auto auto 0px ;
   border-left: solid 100px #5fdde5;
-  background-color: black;
   height:530px;
   width:700px;
   background-color: rgba(0,0,0,0.6);
+}
+
+@media (max-width:1000px){
+	.hide{
+		min-width:200%;
+	}
 }
 
 #main-heading{
@@ -207,8 +211,8 @@ body{
 }
 .jumbo-1-btn{
 	position:relative;
-	top:450px;
-	left:340px;
+	top:220px;
+	left:80px;
 	color:white;
 	background-image:linear-gradient(to bottom right,#30D5C8,#07B0ED,#28A1CC,#007FFF,#2A52BE);
 	font-size:25px;
@@ -216,7 +220,7 @@ body{
 	border-radius:5px;
 	text-decoration:none;
 	font-family: 'Work Sans', sans-serif;
-	margin: auto 5px;
+	margin: 50px 5px;
 }
 .jumbo-1-btn:hover{
 	text-decoration:none;
@@ -230,6 +234,7 @@ body{
 	background-color:#f7f7ee;
 }
 .jumbo2-heading{
+	margin-top:100px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size:100px;
 	text-align:center;
@@ -259,15 +264,15 @@ body{
 
 .plus-btn{
 	color:white;
-	position:relative;
-	left:270px;
 	background-image:linear-gradient(to bottom,#B2BEB5,black);
 	font-size:25px;
 	padding:12px 35px;
 	border-radius:3px;
 	text-decoration:none;
 	font-family: 'Josefin Sans', sans-serif;
-	margin:15px auto;
+	margin-left:60%;
+	margin-left:40%;
+	margin-top:40px;
 }
 .plus-btn:hover{
 	color:black;
@@ -282,52 +287,74 @@ body{
 
 #workout-image{
 	min-width:100%;
-	height:770px;
-	background-image:url("../img/fit3.2.jpg");
+	height:700px;
+	background-image:url("../img/yoga-on-grass.jpg");
+
 	filter:contrast(110%) brightness(110%);
 }
 
 /* Cut-Out Text */
+
 #workout-image-text{
-	max-width:680px;
+	position:absolute;
+	top:30%;
+	left:27%;
 	color:black;
 	background-color: white;
-	font-size: 80px;
+	font-size: 5vw;
 	font-weight:bold;
-	position:relative;
-	left:410px;
-    top: 230px;
 	mix-blend-mode: screen;
 }
 
 .btn1{
-	position:relative;
-	top:260px;
-	left:600px;
+	position:absolute;
+	top:55%;
+	left:35%;
 	color:white;
 	background-image:linear-gradient(to bottom right,#6495ED,#28A1CC,#07B0ED,#30D5C8);
 	font-size:25px;
 	padding:12px 35px;
 	border-radius:5px;
 	text-decoration:none;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	margin: auto 5px;
 	transition:0.2s ease;
-
-
 }
+
+.btn2{
+	position:absolute;
+	top:55%;
+	left:45%;
+	color:white;
+	background-image:linear-gradient(to bottom right,#6495ED,#28A1CC,#07B0ED,#30D5C8);
+	font-size:25px;
+	padding:12px 35px;
+	border-radius:5px;
+	text-decoration:none;
+	font-family: 'Josefin Sans', sans-serif;
+	transition:0.2s ease;
+	margin-left:50px;
+}
+
 .btn1:hover{
 	color:#C0C0C0;
 	background-image:linear-gradient(to bottom right,#1D4A54,#4C6A70,#327C8B,#198DA4);
 	text-decoration:none;
 }
 
+.btn2:hover{
+	color:#C0C0C0;
+	background-image:linear-gradient(to bottom right,#1D4A54,#4C6A70,#327C8B,#198DA4);
+	text-decoration:none;
+}
+
 #workout-jumbo{
+	min-width:100%;
 	height:700px;
 	background-image:url("../img/fitx.jpg");
 	background-repeat:no-repeat;
 	margin-bottom:0;
-	color:#12cad6;
+	color:white;
 	background-color:#f7f7ee;
 }
 
@@ -503,8 +530,103 @@ body{
 	border-radius:7px;
 }
 
+@media (max-width:1000px) {
+  .image1 {
+	position:relative;
+	left:25%;
+  }
+}
+
+@media (max-width:1000px) {
+  .image2 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image3 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image4 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image5 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image6 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image7 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image8 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image9 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image10 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image11 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image12 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image13 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image14 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image15 {
+	position:relative;
+	left:25%;
+  }
+}
+
+
+
+
 #healthpage-jumbo{
-	height:700px;
+	min-height:700px;
 	max-width:100%;
 	padding-top:50px;
 	margin:0;
@@ -512,34 +634,61 @@ body{
 }
 
 .about-links{
-  text-align:center;
-  font-size:30px;
-  color:#8B008B;
-  font-family: 'Work Sans', sans-serif;
-  margin:490px;
+	position:absolute;
+	left:45%;
+    background-color:white;
+    padding:10px;
+    text-align:center;
+    font-size:30px;
+    color:#E75480;
+    font-family: 'Josefin Sans', sans-serif;
+    border:2px red solid;
+    border-radius:5px;
 }
 
 .about-links:hover {
-  color:#E75480;
+  color:#8B008B;
+  background-color:pink;
   text-decoration:none;
 }
 
-.p{
-	padding:20px;
-	font-size:60px;
-	color:#966FD6;
-	text-align:center;
-	font-family: 'Pacifico', cursive;
+.contact{
+	background-color:#f6def6;
+	margin-bottom:10px;
+	margin-top:20px;
+	padding-bottom:80px;
+	border:dashed 2px red;
 }
 
 #plus-page{
 	background-image:url("../img/push-up.jpg");
 	height:800px;
 }
+
 #aa{
-	color:white; 
-	font-size:30px; 
-	text-align:center; 
+	color:white;
+	font-size:30px;
+	text-align:center;
 	padding-top:10px;
 	font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (max-width:1000px){
+	.vv {
+		display:none;
+  }
+}
+
+@media (max-width:1000px){
+	.dd {
+		width:750px;
+  }
+}
+
+@media (max-width:1000px){
+	.n {
+		position:absolute;
+		top:10%;
+		left:10%;
+  }
 }
